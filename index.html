@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Sign-up</title>
 </head>
 <body>
     <div class="leftContainer">
@@ -19,36 +19,46 @@
     <div class="rightContainer">
         <div class="MainTxtWrapper">
             <p class="mainTxt">Discover the perfect getaway for your next adventure! Unlock exclusive deals and start planning your dream vacation today. Sign up <i>now</i> to access the best destinations and experiences.</p>
-            <p class="mainTxt">You <i>know</i> you want to.<p>
+            <p class="mainTxt">You <i>know</i> you want to.</p>
         </div>
         <div class="form">
-            <form action="example.com/path">
-                <label for="firstName">FIRST NAME</label>
-                <input type="text" id="firstName">
-
-                <label for="lastName">LAST NAME</label>
-                <input type="text" id="LastName">
-            </form>
-
+            <p id="formTopTxt">Let's do this!<p> 
             <form>
-                <label for="email">EMAIL</label>
-                <input id="email">
-
-                <label>PHONE NUMBER</label>
-                <input id="phoneNumber">
-            </form>
-
-            <form>
-                <label>PASSWORD</label>
-                <input id="password">
-
-                <label>CONFIRM PASSWORD</label>
-                <input id="confirmPassword">
-            </form>
-
-            <button id="btn">Create Account</button>
-            <p>Already have an account? <a href="#">Log in</a></p>
+                <div class="row">
+                    <div>
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" id="firstName">
+                    </div>   
+                    <div>                
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" id="LastName">
+                    </div>
+                </div>     
+                <div class="row">
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input id="email">
+                    </div>
+                    <div>
+                        <label>PHONE NUMBER</label>
+                        <input id="phoneNumber">
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <label>PASSWORD</label>
+                        <input id="password">
+                    </div>
+                    <div>
+                        <label>CONFIRM PASSWORD</label>
+                        <input id="confirmPassword">
+                    </div>    
+                </div>        
+            </form>    
         </div>
-
+        <div class="btnLoginWrapper">
+            <button id="btn">Create Account</button>
+            <p id="loginTxt">Already have an account? <a id="loginUrl" href="#">Log in</a></p>
+        </div>    
     </div>
 </body>
