@@ -1,3 +1,87 @@
-h1 {
-    color: red;
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./public/fonts/Norse-Bold.otf);
+}
+
+#heroImage {
+    height: 1050px;
+    width: 650px;
+}
+
+.logoContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    font-family: Norse-Bold;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+
+
+}
+#logo {
+    height: 150px;
+    width: 150px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(950%) contrast(80%);
+}
+
+.form {
+    margin: 50px;
+
+}
+
+#imageCredits {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    font-size: 18px;;
+    color: rgb(255, 255, 255);
+}
+
+.creditImgUrl {
+    color: rgb(255, 255, 255);
+}
+
+.mainTxt {
+
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.MainTxtWrapper {
+    background-color: rgb(247, 247, 247);
+    padding: 150px 0 0 50px;
+    width: auto;
+    height:280px;
+
+}
+
+input, label {
+    display:block;
+}
+
+
+.rightContainer {
+
+}
+
+.leftContainer {
+    position: relative;
+
+}
+
