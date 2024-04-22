@@ -14,11 +14,11 @@ body {
 
 @font-face {
     font-family: wowsers-italic;
-    src: url(./public/fonts/wowsers-italic.ttf);
+    src: url(/public/fonts/wowsers-italic.ttf);
 }
 @font-face {
     font-family: Poppins-Regular;
-    src: url(./public/fonts/Poppins-Regular.ttf);
+    src: url(/public/fonts/Poppins-Regular.ttf);
 }
 
 #heroImage {
